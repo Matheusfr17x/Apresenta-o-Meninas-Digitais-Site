@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meninas Digitais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <div class="container">
+        <img class="header-logo" src="img/logo.jpg" alt="Logo da Meninas Digitais">
+        <h1 class="black-text">Meninas Digitais</h1>
+        <img class="header-logo2" src="img/logoif.png" alt="Logo do IF">
+    </div>
+</header>
+<body>
+    <div class="slider">
+        <div class="slides">
+            <!-- Botões de rádio -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <input type="radio" name="radio-btn" id="radio5">
+            <input type="radio" name="radio-btn" id="radio6"> <!-- Adicione o sexto botão de rádio -->
+            
+            <!-- Slides -->
+            <div class="slide first">
+                <img src="img/slide1.png" alt="Imagem 1" />
+            </div>
+            <div class="slide">
+                <img src="img/slide2.png" alt="Imagem 2" />
+            </div>
+            <div class="slide">
+                <img src="img/slide3.png" alt="Imagem 3" />
+            </div>
+            <div class="slide">
+                <img src="img/slide4.png" alt="Imagem 4" />
+            </div>
+            <div class="slide">
+                <img src="img/slide5.png" alt ="Imagem 5" />
+            </div>
+            <div class="slide">
+                <img src="img/slide6_2.png" alt="Imagem 6" /> <!-- Adicione o sexto slide -->
+            </div>
+            <!-- Navegação automática -->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+                <div class="auto-btn5"></div>
+                <div class="auto-btn6"></div> <!-- Adicione o botão de navegação automática para o sexto slide -->
+            </div>
+        </div>
+        <!-- Navegação manual -->
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+            <label for="radio5" class="manual-btn"></label>
+            <label for="radio6" class="manual-btn"></label> <!-- Adicione o botão de navegação manual para o sexto slide -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
